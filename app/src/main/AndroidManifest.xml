@@ -11,14 +11,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MiAppNivel4">
+        android:theme="@style/Theme.MiAppNivel5">
 
         <activity
-            android:name=".TaskDetailActivity"
+            android:name=".view.TaskDetailActivity"
             android:exported="false" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>

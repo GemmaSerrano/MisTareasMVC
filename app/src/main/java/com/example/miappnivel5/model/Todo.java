@@ -1,5 +1,7 @@
-package com.example.miappnivel4;
+package com.example.miappnivel5.model;
 
+
+import java.io.Serializable;
 
 //Clase que utilizamos para la lista DummyJson
 public class Todo {
@@ -18,7 +20,11 @@ public class Todo {
         this.userId = userId;
     }
 
+
+
     public String getTodo() {
         return todo;
     }
+
+
 }

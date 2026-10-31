@@ -1,4 +1,4 @@
-package com.example.miappnivel4;
+package com.example.miappnivel5.view;
 
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.miappnivel5.R;
 
 import java.util.List;
 
@@ -47,7 +49,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), TaskDetailActivity.class);
-                intent.putExtra("TASK", task);
+                intent.putExtra("task_text", task);
                 v.getContext().startActivity(intent);
             }
         });
